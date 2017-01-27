@@ -9,7 +9,7 @@
 		<div id="wrapper">
 			<div id="header">
 				<div id="logo">
-					<span><img src="images/лого.png"></span></a>
+					<span><img src="<?php MAIN_PATH?>/images/лого.png"></span></a>
 				</div>
 				<div id="menu">
 					<ul>
@@ -23,7 +23,7 @@
 			<div id="page">	
 				<div id="content">
 					
-						<?php include 'application/views/'.$content_view; ?>
+						<?php include MAIN_PATH . '/application/views/'.$content_view; ?>
 				</div>
 				<br class="clearfix" />
 			</div>

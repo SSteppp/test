@@ -23,7 +23,7 @@ class Route
 		$model_path = "application/models/".$model_file;
 		if(file_exists($model_path))
 		{
-			include "application/models/".$model_file;
+			include MAIN_PATH ."/application/models/".$model_file;
 		}
 
 		
@@ -31,7 +31,7 @@ class Route
 		$controller_path = "application/controllers/".$controller_file;
 		if(file_exists($controller_path))
 		{
-			include "application/controllers/".$controller_file;
+			MAIN_PATH .include "/application/controllers/".$controller_file;
 		}
 		else
 		{

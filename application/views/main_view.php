@@ -1,4 +1,4 @@
-﻿<img src="/images/gallery/img.jpg" height="500" style="float:left; margin:10px;">
+﻿<img src="<?php MAIN_PATH?>/images/gallery/img.jpg" height="500" style="float:left; margin:10px;">
 <br><h4 >Данный сайт посвещается улыбающимуся человеку на фото.</h4><br>
 <p>Фамилия: Родионов<br>Имя: Андрей<br>Вид деятельности:Программист<br><br>
 О нем:<br>
