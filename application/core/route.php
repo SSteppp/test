@@ -1,4 +1,4 @@
-<?
+<?php
 class Route
 {
 	static function start()
@@ -33,11 +33,7 @@ class Route
 		{
 			MAIN_PATH .include "/application/controllers/".$controller_file;
 		}
-		else
-		{
 		
-			Route::ErrorPage404();
-		}
 		
 		$controller = new $controller_name;
 		$action = $action_name;
@@ -47,10 +43,7 @@ class Route
 			
 			$controller->$action();
 		}
-		else
-		{
-			Route::ErrorPage404();
-		}
+		
 	
 	}
 	

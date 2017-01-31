@@ -1,6 +1,6 @@
-<?
-require_once __DIR__ . '/core/model.php';
-require_once __DIR__ . '/core/view.php';
-require_once __DIR__ . '/core/controller.php';
-require_once __DIR__ . '/core/route.php';
+<?php
+require_once MAIN_PATH .'/application/core/model.php';
+require_once MAIN_PATH .'/application/core/view.php';
+require_once MAIN_PATH .'/application/core/controller.php';
+require_once MAIN_PATH .'/application/core/route.php';
 Route::start(); ?>
